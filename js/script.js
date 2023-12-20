@@ -1,4 +1,21 @@
-function resposta2(){
-    document.querySelector(".pergunta2").textContent = "Yes, Frontend Mentor offers both free and premium coding challenges, with the free option providing access to a range of projects suitable for all skill levels.";
+// const resposta2 = document.querySelector(".resposta2").innerHTML;
+
+// resposta2.innerHTML = resposta2;
+
+
+function aparecer() {
+    document.getElementById("resposta2").style.display = "block";
+    document.getElementById("mais2").style.display = "none";
+    document.getElementById("menos2").style.display = "block";
 }
+
+function desaparecer() {
+    document.getElementById("resposta2").style.display = "none";
+    document.getElementById("mais2").style.display = "block";
+    document.getElementById("menos2").style.display = "none";
+}
+
+
+
+
 

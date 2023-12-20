@@ -56,13 +56,23 @@ h1 {
     margin-bottom: 30px;
 }
 
-.menos {
-    display: inline-block;
-    margin-left: 45px;
+#menos2 {
+    display: none;
+    
 }
 
 .resposta1,
 .resposta2 {
+    font-size: 0.9em;
+    color: #C7C0C8;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.035);
+    font-weight: 600;
+    line-height: 20px;
+}
+
+#resposta2 {
     font-size: 0.9em;
     color: #C7C0C8;
     margin-bottom: 30px;
@@ -81,8 +91,8 @@ h1 {
     border-bottom: 1px solid rgba(0, 0, 0, 0.035);
 }
 
-.resposta2{
-    display: ;
+#resposta2{
+    display: none;
 }
 
 .pergunta4 {
@@ -91,10 +101,11 @@ h1 {
     margin-bottom: 30px;
 }
 
-.mais2 {
+#mais2,
+#menos2 {
     display: inline-block;
-    margin-bottom: -10px;
-    margin-left: 45px;
+    margin-top: -80px;
+    margin-left: 250px;
 }
 
 .mais3 {
