@@ -4,7 +4,7 @@
 
  <div align="center">
 
- [<img src = "assets/images/faqsAccordion.png">](https://luizacn.github.io/challenges-03/)
+ [<img src = "assets/images/faqsAccordion.png">](https://luizacn.github.io/challenge-03/)
 
  </div>
 
