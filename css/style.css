@@ -48,6 +48,11 @@ h1 {
     color: #2E1232;
 }
 
+span{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .pergunta1,
 .pergunta2,
 .pergunta3,
