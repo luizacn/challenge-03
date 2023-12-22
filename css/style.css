@@ -18,6 +18,7 @@ body {
     height: 812px;
     margin: auto;
     background-color: #F9EEFF;
+    cursor: pointer;
 }
 
 .fundo {
@@ -38,7 +39,7 @@ body {
 }
 
 .estrela {
-    width: 25px;
+    width: 20px;
 }
 
 h1 {
@@ -46,9 +47,10 @@ h1 {
     margin-left: 15px;
     margin-bottom: 30px;
     color: #2E1232;
+    font-size: 1.6em;
 }
 
-span{
+.quebra {
     display: flex;
     flex-wrap: wrap;
 }
@@ -65,17 +67,19 @@ span{
 
 #mais1,
 #menos1 {
-    right: 20px;
-    top: 90px;
+    right: 25px;
+    top: 80px;
     position: absolute;
+    width: 25px;
 }
 
 #mais2,
 #menos2 {
     display: flex;
     right: -255px;
-    top: -25px;
+    top: -20px;
     position: relative;
+    width: 25px;
 }
 
 #mais3,
@@ -84,8 +88,9 @@ span{
 #menos4 {
     display: flex;
     right: -255px;
-    top: -45px;
+    top: -35px;
     position: relative;
+    width: 25px;
 }
 
 #menos1,
@@ -107,4 +112,80 @@ span{
     font-weight: 600;
     line-height: 20px;
     display: none;
+}
+
+@media screen and (min-width: 1000px) {
+    .container {
+        width: 1150px;
+        height: px;
+        margin: px;
+        background-color: #F9EEFF;
+        overflow: hidden;
+    }
+
+    .container-content {
+        margin: -95px 325px;
+        width: 500px;
+    }
+
+    .estrela {
+        width: 30px;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    .quebra {
+        display: inline;
+        flex-wrap: nowrap;
+    }
+
+    #mais1,
+    #menos1 {
+        right: 35px;
+        top: 90px;
+        position: absolute;
+    }
+
+    #mais2,
+    #menos2 {
+        display: flex;
+        right: -420px;
+        top: -25px;
+        position: relative;
+    }
+
+    #mais3,
+    #menos3,
+    #mais4,
+    #menos4 {
+        display: flex;
+        right: -420px;
+        top: -20px;
+        position: relative;
+    }
+
+    #menos1,
+    #menos2,
+    #menos3,
+    #menos4 {
+        display: none;
+    }
+
+    .pergunta1:hover {
+        color: #AD28EB;
+    }
+
+    .pergunta2:hover {
+        color: #AD28EB;
+    }
+
+    .pergunta3:hover {
+        color: #AD28EB;
+    }
+
+    .pergunta4:hover {
+        color: #AD28EB;
+    }
 }
