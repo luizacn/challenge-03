@@ -1,6 +1,11 @@
+//a função resposta1() chama a função aparecer1(), uma função dentro da outra
+// function resposta1(){ 
+//     aparecer1();
+// }
+
 function aparecer1() {
     document.getElementById("resposta1").style.display = "block";
-    document.getElementById("mais1").style.display = "none";
+    document.getElementsByClassName("mais1").style.display = "none";
     document.getElementById("menos1").style.display = "block";
 }
 

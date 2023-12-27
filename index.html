@@ -7,7 +7,8 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="estilo/style.css">
+  <link rel="stylesheet" href="estilo/normalize.css">
 
   <title>Frontend Mentor | FAQ accordion</title>
 
@@ -15,9 +16,9 @@
 
 <body>
 
-  <h1>conteúdo</h1>
+  
 
-  <div class="container">
+  <main class="container">
 
     <picture><img class="fundo" src="assets/images/background-pattern-desktop.svg" alt="background-pattern-desktop">
     </picture>
@@ -29,8 +30,9 @@
       <h1>FAQs</h1>
 
       <div>
-        <p class="pergunta1">What is Frontend Mentor, <span class="quebra">how will it help me?</span>
-          <img id="mais1" src="assets/images/icon-plus.svg" alt="icon-plus" onclick="aparecer1()">
+        <p class="pergunta1"><span  onclick="aparecer1()" >What is Frontend Mentor, <span class="quebra">how will it help me?</span></span>
+          <!-- <input type="image" src="assets/images/icon-plus.svg" id="mais1" alt="icon-plus" onclick="aparecer1()"> -->
+          <img class="mais1" src="assets/images/icon-plus.svg" alt="icon-plus" onclick="aparecer1()">
           <img id="menos1" src="assets/images/icon-minus.svg" alt="images/icon-minus" onclick="desaparecer1()">
         </p>
 
@@ -77,7 +79,10 @@
       </div>
 
     </div>
-  </div>
+  </main>
+
+  
+  
 
   <script src="js/script.js"></script>
 
