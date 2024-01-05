@@ -2,89 +2,76 @@
 <html lang="en">
 
 <head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/normalize.css">
-
+  <link rel="stylesheet" href="/normalize.css">
   <title>Frontend Mentor | FAQ accordion</title>
 
 </head>
 
 <body>
-
-
-
   <main class="container">
 
-    <picture>
-      <img class="fundo" src="assets/images/background-pattern-desktop.svg" alt="background-pattern-desktop">
-    </picture>
+    <figure>
+      <img class="imagem-topo" src="assets/images/background-pattern-desktop.svg" alt="background-pattern-desktop">
+    </figure>
 
-    <div class="container-content">
-
-      <img class="estrela" src="assets/images/icon-star.svg" alt="images/icon-star">
-
-      <h1>FAQs</h1>
-
-      <div>
-        <p class="pergunta1"><span onclick="aparecer1()">What is Frontend Mentor, <span class="quebra">how will it help
-              me?</span></span>
-          <!-- <input type="image" src="assets/images/icon-plus.svg" id="mais1" alt="icon-plus" onclick="aparecer1()"> -->
-          <img class="mais1" src="assets/images/icon-plus.svg" alt="icon-plus" onclick="aparecer1()">
-          <img id="menos1" src="assets/images/icon-minus.svg" alt="images/icon-minus" onclick="desaparecer1()">
-        </p>
-
-        <p id="resposta1">Frontend Mentor offers realistic coding challenges to help developers improve their frontend
+    <article class="container-content">
+      <div class="borda">
+        
+        <img class="star-icon" src="assets/images/icon-star.svg" alt="images/icon-star">
+        <h1>FAQs</h1>
+      </div>
+      <section>
+        <h4>What is Frontend Mentor, how will it help me?</h4>
+        <figure>
+          <img src="assets/images/icon-plus.svg" alt="icon-plus">
+          <img src="assets/images/icon-minus.svg" alt="images/icon-minus">
+        </figure>
+        <p>Frontend Mentor offers realistic coding challenges to help developers improve their frontend
           coding skills with projects in HTML, CSS, and JavaScript. It's suitable for
           all levels and ideal for portfolio building.
         </p>
-      </div>
-
-      <div>
-        <p class="pergunta2">Is Frontend Mentor free?
-          <img id="mais2" src="assets/images/icon-plus.svg" alt="icon-plus" onclick="aparecer2()">
-          <img id="menos2" src="assets/images/icon-minus.svg" alt="images/icon-minus" onclick="desaparecer2()">
-        </p>
-
-        <p id="resposta2">
+      </section>
+      <section>
+        <h4 class="pergunta2">Is Frontend Mentor free?</h4>
+        <figure>
+          <img src="assets/images/icon-plus.svg" alt="icon-plus">
+          <img src="assets/images/icon-minus.svg" alt="images/icon-minus">
+        </figure>
+        <p>
           Yes, Frontend Mentor offers both free and premium coding challenges, with the free
           option providing access to a range of projects suitable for all skill levels.
         </p>
-      </div>
-
-      <div>
-        <p class="pergunta3">Can I use Frontend Mentor <span class="quebra">projects in my portfolio?</span>
-          <img id="mais3" src="assets/images/icon-plus.svg" alt="icon-plus" onclick="aparecer3()">
-          <img id="menos3" src="assets/images/icon-minus.svg" alt="images/icon-minus" onclick="desaparecer3()">
-        </p>
-
-        <p id="resposta3">
+      </section>
+      <section>
+        <h4>Can I use Frontend Mentor projects in my portfolio?</h4>
+        <figure>
+          <img src="assets/images/icon-plus.svg" alt="icon-plus">
+          <img src="assets/images/icon-minus.svg" alt="images/icon-minus">
+        </figure>
+        <p>
           Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent
           way to showcase your skills to potential employers!
         </p>
-      </div>
-
-      <div>
-        <p class="pergunta4">How can I get help if I'm <span class="quebra">stuck on a challenge?</span>
-          <img id="mais4" src="assets/images/icon-plus.svg" alt="icon-plus" onclick="aparecer4()">
-          <img id="menos4" src="assets/images/icon-minus.svg" alt="images/icon-minus" onclick="desaparecer4()">
-        </p>
-
-        <p id="resposta4">
+      </section>
+      <section>
+        <h4>How can I get help if I'm stuck on a challenge?</h4>
+        <figure>
+          <img src="assets/images/icon-plus.svg" alt="icon-plus">
+          <img src="assets/images/icon-minus.svg" alt="images/icon-minus">
+        </figure>
+        <p>
           The best place to get help is inside Frontend Mentor's Discord community. There's a help
           channel where you can ask questions and seek support from other community members.
         </p>
-      </div>
+      </section>
+    </article>
 
-    </div>
   </main>
-
-
-
 
   <script src="js/script.js"></script>
 
